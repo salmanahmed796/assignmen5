@@ -135,36 +135,130 @@
 // var p = "Percentage: 82.0408163265306 </br>";
 // document.write(sheet + a + b + p)
 
-    // // Question # 8
-    // var dollar = 104.80;
-    // convertD = dollar * 10;
-    // var riyal = 28;
-    // convertR = riyal * 25;
-    // document.write(convertD + convertR)
+// // Question # 8
+// var dollar = 104.80;
+// convertD = dollar * 10;
+// var riyal = 28;
+// convertR = riyal * 25;
+// document.write(convertD + convertR)
 
-    // var a = "<h1> Currency in PKR</h1> </br>";
-    // var b = "Total currency in PKR: 1748"
-    // document.write(a+b)
+// var a = "<h1> Currency in PKR</h1> </br>";
+// var b = "Total currency in PKR: 1748"
+// document.write(a+b)
 
-    // // Question # 9
-    // var year = 2016;
-    // var birth = 1992;
-    // age = year - birth;
-    // document.write(age)
+// // Question # 9
+// var year = 2016;
+// var birth = 1992;
+// age = year - birth;
+// document.write(age)
 
 
-    // var a = "<h1>Age Calculator</h1></br>";
-    // var b = "Current year:2016</br> Birth year:1992</br> Your age:24";
-    // document.write(a + b)
+// var a = "<h1>Age Calculator</h1></br>";
+// var b = "Current year:2016</br> Birth year:1992</br> Your age:24";
+// document.write(a + b)
 
-    // // Question # 11
-    // var a = 15;
-    // b = 65;
-    // c= 3;
-    // z = (b - a) * c;
-    // document.write(z)
+// // Question # 11
+// var a = 15;
+// b = 65;
+// c= 3;
+// z = (b - a) * c;
+// document.write(z)
 
-    // var a = "<h1> The Lifetime Supply Calculator</h1> </br>";
-    // var b = "Favourite snack: chocolate chip </br> Current age: 15 </br> Extimeted maximum age: 65</br> Amount of snack per day: 3</br> You will need 150 chocolate chip to last you until the ripe old age of 65";
-    // document.write(a + b)
+// var a = "<h1> The Lifetime Supply Calculator</h1> </br>";
+// var b = "Favourite snack: chocolate chip </br> Current age: 15 </br> Extimeted maximum age: 65</br> Amount of snack per day: 3</br> You will need 150 chocolate chip to last you until the ripe old age of 65";
+// document.write(a + b)
 
+// // chapter # 6
+// // Question # 1
+// var a = 10;
+// var b = a + ++a + a++ - --a - a--;
+// alert(b)
+
+// var a = "Result:</br> The value of a is: 10 </br> ............................</br>";
+// var b = "</br>The value of ++a is: 11</br> Now the value of a is: 11 </br>";
+// var c = "</br>The value of a++ is: 11</br> Now the value of a is: 12 </br>";
+// var d = "</br>The value of --a is: 11</br> Now the value of a is: 11 </br>";
+// var e = "</br>The value of a-- is: 11</br> Now the value of a is: 10 </br>";
+// document.write(a + b + c + d + e)
+
+// // Question # 2
+// var a = 2, b = 1;
+// var result = --a - --b + ++b +b--;
+// alert(result)
+
+// var a = "a is: 1 </br>";
+// var b = "b is: 2</br>";
+// var c = "Result is: 3</br>"
+// document.write(a + b +c)
+
+// Chapter # 9
+// Question # 1
+// var cities = ["Karachi", "Lahore", "Islamabad", "Multan", "Pishawar"]
+
+// for(var i = 0; i < cities.length; i++){
+//     if(cities[i] === "Karachi"){
+//         alert(cities[i] + " Welcome to city of lights") 
+//     }
+// }
+
+// // Question # 2
+// var gender = ["Male", "Female"]
+
+// for(var i = 0; i < gender.length; i++){
+//     if(gender[i] === "Male"){
+//         alert(gender[i] + " Good Morning Sir")
+//     }
+// }
+
+// for(var i = 0; i < gender.length; i++){
+//     if(gender[i] === "Female"){
+//         alert(gender[i] + " Good Morning Ma'am")
+//     }
+// }
+
+// // Question # 3
+// var color = ["Red", "Yellow", "Green"]
+
+// for(var i = 0; i < color.length; i++){
+//     if(color[i] === "Red"){
+//         alert(color[i] + " (Must stop)")
+//     }
+// }
+
+// for(var i = 0; i < color.length; i++){
+//     if(color[i] === "Yellow"){
+//         alert(color[i] + " (Ready to move)")
+//     }
+// }
+
+// for(var i = 0; i < color.length; i++){
+//     if(color[i] === "Green"){
+//         alert(color[i] + " (Move now)")
+//     }
+// }
+
+
+// Question # 4
+// if("0.25 litre" < "10 litre"){
+//     alert("Please refill the fuel in your car");
+//     }
+    
+
+// // Question # 11
+// var val1 = prompt ('Enter your first value')
+// var sign = prompt ('Enter your operator')
+// var val2 = prompt ('Enter your Second value')
+
+
+// document.write(val1+sign+val2)
+// if(sign === '+'){
+//     alert((+val1) + (+val2))
+// }else if(sign === '-'){
+//     alert(val1 - val2)
+// }else if(sign === '*'){
+//     alert(val1 * val2)
+// }else if(sign === '/'){
+//     alert(val1 / val2)
+// }else if(sign === '%'){
+//     alert(val1 / val2 *100)
+// }
